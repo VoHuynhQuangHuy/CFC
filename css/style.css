@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    position: absolute;
+    width: 1015px;
+    height: 250px;
+    left: 97px;
+    right: 328px;
+    display: flex;
+    justify-content: space-between;
+}
+.slogan{
+    position: absolute;
+    width: 785px;
+height: 144px;
+left: 230px;
+top: 99px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+
+color: #000000;
+
+}
+.slogan span{
+    color:#345AFA;
+}
+.navigation{
+    position: absolute;
+    width: 1260px;
+    height: 390px;
+    top:290px;
+    left: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.home, .learn, .test, .documentation{
+    width: 272px;
+    height: 385px;
+    border: 2px solid #345AFA;
+    border-radius:  15px 15px;
+}
+.home_buttom, .learn_buttom, .test_buttom, .documentation_buttom{
+    position: absolute;
+width: 272px;
+height: 102px;
+bottom: 0px;
+color: white;
+text-align: center;
+background: #345AFA;
+border: 2px solid #345AFA;
+border-radius: 0px 0px 15px 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 47px;
+text-align: center;
+color: #FFFFFF;
+}
+.footer{
+    position:absolute;
+    width: 1440px;
+    height: 209px;
+    top: 815px;
+    background-color: #345AFA;
+}
+.content{
+    position: absolute;
+    top: 13px;
+    left: 138px;
+    width: 1169px;
+    height: 160px;
+    background-color: #345AFA;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    width: 181px;
+    height: 51px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.content1, .content2, .content3, .content4{
+    position: relative;
+    width: 181px;
+    height: 160px;
+}
+.content1 img{
+    position: absolute;
+    left: 39px;
+}
+.content1 p, .content2 p, .content3 p, .content4 p{
+    position: absolute;
+    bottom: 0px;
+}
+.content2{
+    position: absolute;
+    left: 323px;
+}
+.content3{
+    position: absolute;
+    left: 653px;   
+}
+.content2 img{
+    position: absolute;
+    left: 44px;
+}
+.content3 img{
+    position: absolute;
+    left: 45px;
+}
+.content4 img {
+    position: absolute;
+    left: 57px;
+}
